@@ -1,0 +1,429 @@
+@import url("ttps://fonts.googleapis.com/css?family=Oleo+Script|Roboto+Condensed|Fjalla+One");
+body {
+  font-family: 'Roboto Condensed', 'sans-serif'; 
+  position: absolute;
+}
+h1 h2 h3 h4 h5 p,
+p{
+  font-family: 'Roboto Condensed', 'sans-serif';
+  font-size: 1em;
+}
+nav {
+  width: 90%;
+  margin: 0 auto;
+}
+.menu_bar{
+  display: none; 
+}
+nav ul{
+  overflow: hidden;
+  list-style: none;
+  float: right;
+  padding-right: 10%;
+}
+nav ul li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  color: #20b9c6;
+  padding: 1em;
+  font-size: 1.1em;
+  text-transform: capitalize;
+  text-decoration: bold;
+  text-align: center;
+}
+nav ul li a:hover {
+  text-decoration: none;
+  color: #f7be5c;
+  padding: 1em 1em 0 1em;
+  cursor: pointer;
+  border-bottom: 2px solid #f7be5c;
+}
+nav ul li a:active{
+  color: #f7be5c;
+}
+.menu-fixed {
+  margin-top: 0;
+  background-color: #214c52;
+  position:fixed;
+  z-index:1000;
+  top:0;
+  /*max-width:1000px;*/
+  left:0;
+  width:99%;
+  height: auto;
+  box-shadow:0 0 3px rgba(0,0,0,.5);
+  
+}
+header {
+  background: url("../../assets/img/header.jpg") 100% 0 fixed;
+  margin: 0 auto;
+  position: relative;
+  height: auto;
+  text-align: center;
+}
+header h1 {
+  font-size: 4em;
+  color: #20b9c6;
+  text-transform: uppercase;
+  font-family: 'Oleo Script', cursive;
+  padding-bottom: 0.5em;
+}
+header h2 {
+  font-size: 2.5em;
+  color: #fff;
+  padding-bottom: 0.5em;
+}
+header p {
+  color: #999;
+  padding-bottom: 1em;
+}
+header .boton_y {
+  display: inline-block;
+  border-radius: 10px;
+  border: 2px solid #f7be5c;
+  height: 35px;
+  line-height: 35px;
+  padding: 0 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  color: #fff;
+  margin: 1em;
+  text-transform: uppercase;
+}
+header .boton_y:hover {
+  background-color: #f7be5c;
+  cursor: pointer;
+}
+header .boton_b {
+  display: inline-block;
+  border-radius: 10px;
+  border: 2px solid #20b9c6;
+  height: 35px;
+  line-height: 35px;
+  padding: 0 1em;
+  padding-right: 1em;
+  padding-bottom: 0.3em;
+  color: #fff;
+  margin: 1em;
+  text-transform: uppercase;
+}
+header .boton_b:hover {
+  background-color: #20b9c6;
+  cursor: pointer;
+}
+header .img_header {
+  width: auto;
+  padding: 1em;
+  padding-bottom: 3em;
+  float: right;
+}
+
+.t_header {
+  padding: 2em;
+  padding-left: 0;
+  text-align: center;
+}
+.logo {
+  width: 150px;
+}
+.servicios {
+  background: url(../../assets/img/back_3.png) 50% 0 fixed;
+  margin: 0 auto;
+  position: relative;
+  padding: 50px 0;
+  height: auto;
+  text-align: center;
+}
+.servicios h2 {
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid #f7be5c;
+  font-family: 'Oleo Script', cursive;
+  text-decoration: bold;
+}
+.servicios h3 {
+  font-size: 1.2em;
+  padding: 10px;
+  color: #666;
+}
+.s_contenedor {
+  display: inline-block;
+  padding-bottom: 1em;
+  padding: 0.5em;
+  text-align: center;
+  border-radius: 0.5em;
+  height: 320px;
+  margin: 10px;
+  position: relative;
+  -webkit-box-shadow: 1px 0px 15px -1px rgba(0,0,0,0.49);
+  -moz-box-shadow: 1px 0px 15px -1px rgba(0,0,0,0.49);
+  box-shadow: 1px 0px 15px -1px rgba(0,0,0,0.49);
+}
+.s_contenedor .dos {
+  width: 100%;
+  height: 250px;
+}
+.s_contenedor h3 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+  color: #999;
+}
+.s_contenedor p {
+  text-align: left;
+  font-size: 16px;
+  font-style: italic;
+  color: #666;
+}
+.s_contenedor span {
+  color: #333;
+  font-style: bold;
+}
+.s_fa {
+  color: #20b9c6;
+  border-bottom: 2px solid #20b9c6;
+  padding-bottom: 0.2em;
+}
+.s_fa1 {
+  color: #f7be5c;
+  border-bottom: 2px solid #f7be5c;
+  padding-bottom: 0.2em;
+}
+.cotizacion {
+  background-color: #214c52;
+  margin: 0 auto;
+  padding: 50px 0;
+  height: auto;
+  text-align: center;
+  color: #f7be5c;
+  width: 100%;
+  text-decoration: bold;
+}
+.cotizacion h2 {
+  font-family: 'Oleo Script', cursive;
+  text-decoration: bold;
+  line-height: 2em;
+}
+.cotizacion h4 {
+  color: #999;
+}
+.boton_co {
+  background-color: #20b9c6;
+  font-size: 16px;
+  display: inline-block;
+  border-radius: 10px;
+  border: 2px solid #20b9c6;
+  width: 250px;
+  height: 55px;
+  line-height: 55px;
+  padding: 0 1em;
+  padding-right: 1em;
+  padding-bottom: 1em;
+  color: #fff;
+  margin: 1em;
+  text-transform: uppercase;
+}
+.boton_co:hover {
+  background-color: #214c52;
+  border: 2px solid #20b9c6;
+  cursor: pointer;
+}
+.s_fa_co {
+  color: #fff;
+  padding: 0.1em;
+}
+
+/* contactos
+--------------------------*/
+.contactos {
+  background: #fff;
+  margin: 0 auto;
+  position: relative;
+  padding: 50px 0;
+  height: auto;
+  text-align: center;
+  color: #666;
+}
+.contactos h2 {
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid #f7be5c;
+  font-family: 'Oleo Script', cursive;
+  text-decoration: bold;
+  }
+.contactos h3 {
+  color: #666;
+  font-size: 1em;
+  padding: 10px;
+  border-bottom: 2em;
+}
+.contactos form{
+  background-color: #fff;
+  padding: 2em 
+}
+.boton_c {
+  display: inline-block;
+  background-color: #fff;
+  float: right;
+  border-radius: 10px;
+  border: 1px solid #20b9c6;
+  height: 35px;
+  line-height: 35px;
+  padding: 0 1em;
+  padding-right: 1em;
+  padding-bottom: 0.3em;
+  color: #555;
+  margin: 1em;
+  text-transform: uppercase;
+}
+.boton_c:hover {
+  background-color: #20b9c6;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 2px solid #20b9c6;
+  color: #fff;
+}
+.contactos legend{
+  color: #f7be5c;
+}
+.contactos address{
+  margin-left: 2em;
+  text-align: center;
+}
+.contactos a{
+  color: #20b9c6;
+}
+
+/* Portfolio
+---------------------------------*/
+.porti {
+  background: #fff;
+  margin: 0 auto;
+  position: relative;
+  padding: 50px 0;
+  height: auto;
+  text-align: center;
+  color: #666;
+}
+.porti h2 {
+  color: #666;
+  padding-bottom: 0.5em;
+  border-bottom: 2px solid #f7be5c;
+  font-family: 'Oleo Script', cursive;
+  text-decoration: bold;
+}
+.porti h3 {
+  color: #666;
+  font-size: 1em;
+  padding: 10px;
+  
+}
+.portfolio {
+  background: #fff;
+  margin: 0 auto;
+  position: relative;
+  padding: 50px 0;
+  height: auto;
+  text-align: center;
+}
+img {
+   max-width:100%;
+}
+/*footer*/
+footer{
+  background-image: url(../../assets/img/header.jpg);
+  margin: 0 auto;
+  position: relative;
+  padding: 20px 0;
+  height: auto;
+  text-align: center;
+  color: #fff;
+}
+footer .logo-f{
+  padding-top: 20px;
+  width: 100px;
+  height: 70px;
+}
+footer h1{
+  font-size: 4em;
+  color: #20b9c6;
+  text-transform: uppercase;
+  font-family: 'Oleo Script', cursive;
+  padding-bottom: 0.5em;
+}
+footer p{
+  color: #999;
+  text-align: center;
+  margin: 0 100px 50px 100px;  
+}
+footer a i{
+  color: #20b9c6;
+  padding: 5px;
+}
+footer a i:hover{
+  color: #f7be5c;
+  padding-bottom: 0.1em;
+  border-bottom: 2px solid #f7be5c;
+}
+footer a{
+  color: #20b9c6;
+  padding: 5px;
+  margin: 10px 0 10px 0;
+}
+footer a:hover{
+  color: #f7be5c;
+  text-decoration-line: none;
+}
+footer strong{
+  color: #f7be5c;
+}
+.main-section.paddind{
+  padding-bottom:60px;
+}
+
+
+/* Animation Timers
+---------------------------------*/
+.delay-02s { 
+  animation-delay: 0.2s; 
+  -webkit-animation-delay: 0.2s; 
+}
+.delay-03s { 
+  animation-delay: 0.3s; 
+  -webkit-animation-delay: 0.3s; 
+}
+.delay-04s { 
+  animation-delay: 0.4s; 
+  -webkit-animation-delay: 0.4s; 
+}
+
+.delay-05s { 
+  animation-delay: 0.5s; 
+  -webkit-animation-delay: 0.5s; 
+}
+.delay-06s { 
+  animation-delay: 0.6s; 
+  -webkit-animation-delay: 0.6s; 
+}
+
+.delay-07s { 
+  animation-delay: 0.7s; 
+  -webkit-animation-delay: 0.7s; 
+}
+.delay-08s { 
+  animation-delay: 0.8s; 
+  -webkit-animation-delay: 0.8s; 
+}
+
+.delay-09s { 
+  animation-delay: 0.9s; 
+  -webkit-animation-delay: 0.9s; 
+}
+.delay-1s { 
+  animation-delay: 1s; 
+  -webkit-animation-delay: 1s; 
+}
+.delay-12s { 
+  animation-delay: 1.2s; 
+  -webkit-animation-delay: 1.2s; 
+}
+

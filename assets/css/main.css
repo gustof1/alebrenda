@@ -1,0 +1,179 @@
+@import 'https://fonts.googleapis.com/css?family=Roboto';
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: #212121;
+}
+
+.title{text-align: center;}
+.title:after{
+  content: "";
+  background-color: #4cae50;
+  display: table;
+  padding: 2px;
+  width: 35px;
+  margin: 10px auto 0;
+}
+.main-menu a{margin-right: 25px;}
+.content{
+  width: 80%;
+  margin: 25px auto;
+}
+.network{font-size: 1.4em;}
+.logo{font-size: 22px; font-weight: bold;}
+.f-wrap{flex-wrap: wrap; -webkit-flex-wrap: wrap;}
+.flex-box{display: -webkit-flex; display: flex;}
+.s-around{-webkit-justify-content: space-around; justify-content: space-around;}
+.s-between{-webkit-justify-content: space-between; justify-content: space-between;}
+.a-center{-webkit-align-items: center; align-items: center;}
+.s-center{-webkit-justify-content: center; justify-content: center;}
+a{text-decoration: none; color: #757575;}
+
+main{
+  height: calc(100vh - 72px);
+  width: 100%;
+  background: #388E3C;
+  background: -webkit-linear-gradient(#388E3C, #4CAF50);
+  background: -o-linear-gradient(#388E3C, #4CAF50);
+  background: -moz-linear-gradient(#388E3C, #4CAF50);
+  background: linear-gradient(#388E3C, #4CAF50);
+}
+
+.slogan{
+  color: #C8E6C9;
+  font-size: 1.5em;
+  width: 70%;
+  text-align: center;
+}
+
+.download{
+  color: #4CAF50;
+  border: 1px solid;
+  padding: 5px 25px;
+  border-radius: 5px;
+}
+
+.button{
+  color: #FFF;
+  border: 1px solid;
+  padding: 5px 25px;
+  border-radius: 5px;
+}
+
+#install{
+  padding-top: 35px;
+  padding-bottom:35px;
+}
+
+footer{
+  background: #2e2e2e;
+  color: white;
+  padding: 5px 10%;
+  text-align: center;
+}
+
+pre {
+    border: 1px solid #ccc;
+    word-wrap: break-word;
+    padding: 6px 10px;
+    line-height: 19px;
+    margin-bottom: 20px;
+    overflow: auto;
+}
+
+code {
+    border: 1px solid #eaeaea;
+    margin: 0px 2px;
+    padding: 0px 5px;
+    font-size: 12px;
+}
+
+pre code {
+    border: 0px;
+    padding: 0px;
+    margin: 0px;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+}
+
+pre, code {
+    font-family: "Consolas", "Monaco", "Courier", monospace;
+    color: #fff;
+    background: #2e2e2e;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+pre, pre code {font-size: .875em;}
+pre .comment {color: #998;}
+pre .support {color: #cc7833;}
+pre .tag, pre .tag-name {color: #a1617a;}
+pre .keyword, pre .css-property, pre .vendor-prefix, pre .sass, pre .class, pre .id, pre .css-value, pre .entity.function, pre .storage.function {font-weight: bold;}
+pre .css-property, pre .css-value, pre .vendor-prefix, pre .support.namespace {color: #333;}
+pre .constant.numeric, pre .keyword.unit, pre .hex-color {
+    font-weight: normal;
+    color: #099;
+}
+
+pre .entity.class {color: #458;}
+pre .entity.id, pre .entity.function {color: #900;}
+pre .attribute, pre .variable {color: #fff;}
+pre .string, pre .support.value  {
+    font-weight: normal;
+    color: #b4c973;
+}
+
+pre .regexp {color: #009926;}
+
+.thanks{
+  background: url("../images/thanks.png");
+  background-position: center;
+  overflow: hidden;
+  height: calc(100vh - 55px);
+}
+.card{
+  width: 35%;
+  margin: 120px auto 0;
+}
+.row{
+  padding: 50px 0;
+  border: 1px solid #2e2e2e;
+}
+.card .head{
+  text-align: center;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  background: #2e2e2e;
+}
+.card .body{
+  background: #f2f2f2;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.copyright a{margin-right: 10px;}
+.copyright i{font-size: 18px;}
+@media (max-width: 480px){
+  .main-menu{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    background: #000;
+  }
+  .main-menu a{color: #fff;}
+  .main-menu > div{
+    width: 80%;
+    margin: 10px auto;
+  }
+  .download{
+    border: 0px;
+    padding: 0px;
+    border-radius: 0;
+  }
+}
+@media (min-width: 480px) and (orientation: landscape){.slogan{font-size: 1em;}}
+@media (max-width: 340px){.slogan{font-size: 1em;}}
